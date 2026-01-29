@@ -1,0 +1,123 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Cherry blossom flower with neon pink glow effect -->
+    <!-- Main flower shape with 5 petals -->
+    <group
+        android:translateX="54"
+        android:translateY="54">
+        
+        <!-- Glow layer (larger, semi-transparent) -->
+        <path
+            android:fillColor="#80FF0090"
+            android:pathData="M0,-22 Q8,-22 12,-18 Q12,-8 6,-4 Q0,-6 0,-4 Q-6,-8 -12,-18 Q-8,-22 0,-22z"
+            android:alpha="0.4"/>
+        <path
+            android:fillColor="#80FF0090"
+            android:pathData="M0,-22 Q8,-22 12,-18 Q12,-8 6,-4 Q0,-6 0,-4 Q-6,-8 -12,-18 Q-8,-22 0,-22z"
+            android:rotation="72"
+            android:pivotX="0"
+            android:pivotY="0"/>
+        <path
+            android:fillColor="#80FF0090"
+            android:pathData="M0,-22 Q8,-22 12,-18 Q12,-8 6,-4 Q0,-6 0,-4 Q-6,-8 -12,-18 Q-8,-22 0,-22z"
+            android:rotation="144"
+            android:pivotX="0"
+            android:pivotY="0"
+            android:alpha="0.4"/>
+        <path
+            android:fillColor="#80FF0090"
+            android:pathData="M0,-22 Q8,-22 12,-18 Q12,-8 6,-4 Q0,-6 0,-4 Q-6,-8 -12,-18 Q-8,-22 0,-22z"
+            android:rotation="216"
+            android:pivotX="0"
+            android:pivotY="0"
+            android:alpha="0.4"/>
+        <path
+            android:fillColor="#80FF0090"
+            android:pathData="M0,-22 Q8,-22 12,-18 Q12,-8 6,-4 Q0,-6 0,-4 Q-6,-8 -12,-18 Q-8,-22 0,-22z"
+            android:rotation="288"
+            android:pivotX="0"
+            android:pivotY="0"
+            android:alpha="0.4"/>
+        
+        <!-- Main petals (bright pink) -->
+        <path
+            android:fillColor="#FF0090"
+            android:pathData="M0,-18 Q6,-18 9,-15 Q9,-7 4,-4 Q0,-5 0,-4 Q-4,-7 -9,-15 Q-6,-18 0,-18z"/>
+        <path
+            android:fillColor="#FF0090"
+            android:pathData="M0,-18 Q6,-18 9,-15 Q9,-7 4,-4 Q0,-5 0,-4 Q-4,-7 -9,-15 Q-6,-18 0,-18z"
+            android:rotation="72"
+            android:pivotX="0"
+            android:pivotY="0"/>
+        <path
+            android:fillColor="#FF0090"
+            android:pathData="M0,-18 Q6,-18 9,-15 Q9,-7 4,-4 Q0,-5 0,-4 Q-4,-7 -9,-15 Q-6,-18 0,-18z"
+            android:rotation="144"
+            android:pivotX="0"
+            android:pivotY="0"/>
+        <path
+            android:fillColor="#FF0090"
+            android:pathData="M0,-18 Q6,-18 9,-15 Q9,-7 4,-4 Q0,-5 0,-4 Q-4,-7 -9,-15 Q-6,-18 0,-18z"
+            android:rotation="216"
+            android:pivotX="0"
+            android:pivotY="0"/>
+        <path
+            android:fillColor="#FF0090"
+            android:pathData="M0,-18 Q6,-18 9,-15 Q9,-7 4,-4 Q0,-5 0,-4 Q-4,-7 -9,-15 Q-6,-18 0,-18z"
+            android:rotation="288"
+            android:pivotX="0"
+            android:pivotY="0"/>
+        
+        <!-- Inner light pink highlights -->
+        <path
+            android:fillColor="#FFB3E6"
+            android:pathData="M0,-14 Q3,-14 5,-12 Q5,-8 2,-6 Q0,-7 0,-6 Q-2,-8 -5,-12 Q-3,-14 0,-14z"/>
+        <path
+            android:fillColor="#FFB3E6"
+            android:pathData="M0,-14 Q3,-14 5,-12 Q5,-8 2,-6 Q0,-7 0,-6 Q-2,-8 -5,-12 Q-3,-14 0,-14z"
+            android:rotation="72"
+            android:pivotX="0"
+            android:pivotY="0"/>
+        <path
+            android:fillColor="#FFB3E6"
+            android:pathData="M0,-14 Q3,-14 5,-12 Q5,-8 2,-6 Q0,-7 0,-6 Q-2,-8 -5,-12 Q-3,-14 0,-14z"
+            android:rotation="144"
+            android:pivotX="0"
+            android:pivotY="0"/>
+        <path
+            android:fillColor="#FFB3E6"
+            android:pathData="M0,-14 Q3,-14 5,-12 Q5,-8 2,-6 Q0,-7 0,-6 Q-2,-8 -5,-12 Q-3,-14 0,-14z"
+            android:rotation="216"
+            android:pivotX="0"
+            android:pivotY="0"/>
+        <path
+            android:fillColor="#FFB3E6"
+            android:pathData="M0,-14 Q3,-14 5,-12 Q5,-8 2,-6 Q0,-7 0,-6 Q-2,-8 -5,-12 Q-3,-14 0,-14z"
+            android:rotation="288"
+            android:pivotX="0"
+            android:pivotY="0"/>
+        
+        <!-- Center circle -->
+        <path
+            android:fillColor="#FF0090"
+            android:pathData="M0,0 m-4,0 a4,4 0,1,1 8,0 a4,4 0,1,1 -8,0"/>
+        
+        <!-- Decorative swirl -->
+        <path
+            android:strokeColor="#FF0090"
+            android:strokeWidth="1.5"
+            android:fillColor="#00000000"
+            android:pathData="M8,8 Q12,8 14,10 Q16,12 16,16 Q16,20 14,22"
+            android:strokeLineCap="round"/>
+        <path
+            android:strokeColor="#FF0090"
+            android:strokeWidth="1.5"
+            android:fillColor="#00000000"
+            android:pathData="M14,22 Q12,24 10,24"
+            android:strokeLineCap="round"/>
+    </group>
+</vector>
