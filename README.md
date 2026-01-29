@@ -1,9 +1,5 @@
 <div align="center">
 
-# 🌸 AniMermo
-
-<img src="app/src/main/ic_launcher-playstore.png" width="200" height="200" alt="AniMermo"/>
-
 ### Aplicativo Android Open Source para Streaming de Animes
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
@@ -239,28 +235,6 @@ Contribuições são muito bem-vindas! Veja como você pode ajudar:
 
 ---
 
-## 🗺️ Roadmap
-
-### v1.0.0 (Atual)
-- [x] Sistema de perfis
-- [x] Provider AnimeFire
-- [x] Interface em PT-BR
-- [x] Design personalizado
-
-### v1.1.0 (Próximo)
-- [ ] Sistema de favoritos melhorado
-- [ ] Notificações de novos episódios
-- [ ] Modo offline/download
-- [ ] Temas personalizáveis
-
-### v1.2.0 (Futuro)
-- [ ] Sincronização entre dispositivos
-- [ ] Suporte a Chromecast
-- [ ] Widget para tela inicial
-- [ ] Modo picture-in-picture
-
----
-
 ## 🎨 Personalização
 
 ### Repositórios Fixos
@@ -348,14 +322,6 @@ Se este projeto foi útil para você, considere:
 
 ---
 
-## 📞 Contato e Suporte
-
-- **Issues**: [GitHub Issues](../../issues)
-- **Discussões**: [GitHub Discussions](../../discussions)
-- **Wiki**: [Documentação](../../wiki)
-
----
-
 ## 📊 Status do Projeto
 
 <div align="center">
@@ -378,49 +344,4 @@ Se este projeto foi útil para você, considere:
 </div>
 
 
-1. **UI/UX**:
-   - Ícone personalizado (flor de cerejeira neon)
-   - Nome alterado para "AniMermo"
-   - Interface simplificada
-   - Remoção de opções avançadas
-
-2. **Funcionalidades**:
-   - Repositórios fixos (não editáveis pelo usuário)
-   - Provider AnimeFire pré-configurado
-   - Setup wizard desabilitado
-   - Sistema de perfis implementado
-
-3. **Limpeza**:
-   - Removida documentação original
-   - Removidos CI/CD configs
-   - Removidas pastas não utilizadas
-
----
-
-## 🤝 Créditos
-
-Baseado no excelente [Cloudstream-3](https://github.com/recloudstream/cloudstream) desenvolvido pela equipe Cloudburst.
-
----
-
-## 📜 Licença
-
-Este projeto mantém a licença original do Cloudstream3:
-
-```
-GNU General Public License v3.0
-```
-
-Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-## ⚠️ Aviso Legal
-
-Este aplicativo é apenas uma interface de streaming. O conteúdo é fornecido por provedores de terceiros. Os desenvolvedores não hospedam nem distribuem conteúdo e não são responsáveis pelo conteúdo disponível através da aplicação.
-
----
-
-<div align="center">
-  <p>Feito com 💜 para a comunidade anime brasileira</p>
 </div>
